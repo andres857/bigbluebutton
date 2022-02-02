@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"); 
+
+body {
+  background-color: white !important;
+  font-family: 'Roboto', 'Source Sans Pro', Arial, sans-serif;
+  --user-list-bg: white;
+  --user-list-color: black;
+  --user-list-text: white;
+  --btn-primary-bg: #F28935;
+  --disabled-color: #cfd2cd;
+  --userlist-handle-width: 1px;
+  --loader-bg: #0d4d9a;
+}
+
+.smallTitle--2wz4kP {
+    font-size: 0.95rem !important;
+    color: grey !important;
+}
+
+/* Chat item */
+.chatListItem--Z2sTdzU {
+  background-color: white !important;;
+}
+
+.chatListItem--Z2sTdzU:hover {
+  background-color: var(--list-item-bg-hover) !important;;
+}
+
+.chatNameMain--Z1S9hh4 {
+ color: #0e4d9a !important;
+ font-weight: 700 !important;
+}
+
+.active--Z1SuO2X {
+  background-color: var(--list-item-bg-hover) !important;
+  box-shadow: none !important;
+}
+
+.chatListItem--Z2sTdzU:active, .chatListItem--Z2sTdzU:focus {
+   box-shadow:none !important;  
+}
+
+/* Notas compartidas */
+.listItem--Siv4F {
+    background-color: white !important;
+}
+
+.listItem--Siv4F:hover {
+    background-color: var(--list-item-bg-hover) !important;
+}
+
+.listItem--Siv4F:active, .listItem--Siv4F:focus {
+   box-shadow:none !important;  
+}
+
+.noteTitle--DWw20 {
+ color: #0e4d9a !important;
+ font-weight: 700 !important;
+}
+
+
+/* Item usuario (lista) */
+.userNameMain--2fo2zM {
+    color: grey !important;
+}
+
+.userListItem--Z1qtuLG {
+   background-color: white !important;
+}
+
+.userListItem--Z1qtuLG:hover {
+   background-color: #bfd9f9 !important;
+}
+
+.usertListItemWithMenu--Z27EKt2 {
+   background-color: #bfd9f9 !important;
+   box-shadow: none !important;
+}
+
+.noVoice--1sLVsL:after {
+  background-color: #C1C7CC !important;
+}
+
+/* Divisor */
+.userlistPad--o5KDX {
+    background-color: #0d4d9a !important;
+}
+
+/* Mensaje de sistem de bienvenida */
+.systemMessage--ZEi8xl {
+  color: #0e4d9a !important;
+  border: none !important;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important;
+}
+
+
+/* Popup opciones de usuario de lista de usuarios */
+
+/* contentedor popup */
+
+.content--ZmitSl {
+    padding: 14px !important;
+}
+
+.itemLabel--Z12glHA {
+    color: #0e4d9a !important;
+}
+
+.item--yl1AH:hover .iconRight--Z8Cqab, .item--yl1AH:hover .itemIcon--Z207zn1, .item--yl1AH:hover .itemLabel--Z12glHA, .item--yl1AH:focus .iconRight--Z8Cqab, .item--yl1AH:focus .itemIcon--Z207zn1, .item--yl1AH:focus .itemLabel--Z12glHA {
+  color: inherit !important;
+}
+
+/* boton microfono */
+
+.lg--Q7ufB.buttonWrapper--x8uow[accesskey="M"] span {
+  background-color: #EA6B23 !important;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.lg--Q7ufB.buttonWrapper--x8uow.btn--Z12eHso[accesskey="M"] span {
+  background-color: var(--disabled-color) !important;
+}
+
+/* Boton telefono */
+
+.dropdown--Z10dYoc .lg--Q7ufB.buttonWrapper--x8uow span {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+  background-color: #00A8DE !important;
+}
+
+.lg--Q7ufB.buttonWrapper--x8uow.btn--Z12eHso span {
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+  background-color: var(--disabled-color) !important;
+}
+
+/* Boton camara web*/
+.lg--Q7ufB.buttonWrapper--x8uow[data-test="leaveVideo"] span {
+  background-color: #46DD38 !important;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.lg--Q7ufB.buttonWrapper--x8uow[data-test="joinVideo"] span {
+  background-color: var(--disabled-color) !important;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+/* Boton de opciones (+) */
+.button--Z2dosza.lg--Q7ufB.primary--1IbqAO.circle--Z2c8umk {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    background-color: #670476 !important;
+}
+/* Boton cerrar sesion */
+.lg--Q7ufB.buttonWrapper--x8uow[data-test="logout"] span {
+   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+   background-color: red !important;
+}
+
+/* Boton compartir pantalla */
+.lg--Q7ufB.buttonWrapper--x8uow span {
+   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+   background-color: #EE0056 !important;
+}
+
+.lg--Q7ufB.buttonWrapper--x8uow.btn--ZGSiQH span {
+   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+   background-color: var(--disabled-color) !important;
+}
+
+/* Boton restaurrar presentacion*/
+.right--DUFDc .lg--Q7ufB.buttonWrapper--x8uow.button--ZzeTUF span {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+   background-color: #ffbe0b !important;
+}
+/*user icon*/
+.icon--2q1XXw.icon-bbb-user {
+    /*color: grey;*/
+}
+
+/* meeting title*/
+.presentationTitle--1LT79g {
+   color: grey !important;
+   font-weight: bold !important;
+}
+
+.presentationTitle--Z1JrxcV {
+  font-weight: bold !important;
+}
+
+/* Recording container */
+.recordingControlOFF--26cqft { 
+   background-color: #0d4d9a !important;
+   border-color: #227C9D !important;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+/* Menu button icon */
+.icon--2q1XXw.icon-bbb-more {
+    color: grey !important;
+}
+
+/* contenedor */
+.content--2jo8b8 {
+  border-left-width: 1px !important;
+  border-color: grey !important;
+  border-left-style: solid !important;
+}
+
+.md--Q7ug4.buttonWrapper--x8uow.btn--Z25OApd[accesskey="U"] {
+  background-color: #0d4d9a !important;
+  border-radius: 0 20px 20px 0 !important;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+  width: 60px !important;
+}
+.left--18SBXP {
+  transform: translateX(-15px) !important;
+}
+
+.dropdownTrigger--Z1Fp5dg {
+    border-radius: 0 12px 12px 0 !important;
+    padding: 4px 1rem 4px .5rem !important;
+    transform: translateX(-4px) !important;
+    font-size: 14px !important;
+}
+
+.fullScreenButton--Z1bf0vj {
+  padding: 10px !important;
+}
+
+.muted--quAxq.icon-bbb-unmute_filled {
+  background-color: #EA6B23 !important;
+  height: 25px !important;
+  width: 25px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.wrapper--Z17x8k2.dark--Z1Y80Wt.top--1p9eDv {
+    border-radius: 0 0 0 5px !important;
+}
+
+/* Fondo modal fuera del meeting */
+.parent--ZQqoCg {
+  background-color: #0d4d9a !important;
+}
