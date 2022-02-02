@@ -550,7 +550,7 @@ public:
     # Number of reconnection attempts of the signaling websocket, before
     # showing to the user there's an audio error.
     audioReconnectionAttempts: 3
-    sipjsHackViaWs: false
+    sipjsHackViaWs: true 
     # the fqdn of this host.
     # If you run a traditional setup of multiple nodes behind scalelite and the users see the hostnames of the
     # individual nodes, you can leave this at the default setting
