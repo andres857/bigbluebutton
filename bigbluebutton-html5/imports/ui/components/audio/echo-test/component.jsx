@@ -72,11 +72,12 @@ class EchoTest extends Component {
           onClick={disableYesButtonClicked(this.handleYes)}
         />
         <Button
+          className={styles.button}
           label={intl.formatMessage(intlMessages.disconfirmLabel)}
           aria-label={intl.formatMessage(intlMessages.disconfirmAriaLabel)}
           icon="thumbs_down"
           circle
-          color=""
+          color="danger"
           size="jumbo"
           onClick={this.handleNo}
         />
