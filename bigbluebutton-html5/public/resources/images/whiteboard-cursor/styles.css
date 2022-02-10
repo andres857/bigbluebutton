@@ -6,7 +6,7 @@ body {
   --user-list-bg: white;
   --user-list-color: black;
   --user-list-text: white;
-  --btn-primary-bg: #670476;
+  --btn-primary-bg: #F28935;
   --disabled-color: #cfd2cd;
   --userlist-handle-width: 1px;
   --loader-bg: #0d4d9a;
@@ -111,7 +111,6 @@ body {
 }
 
 /* boton microfono */
-
 .lg--Q7ufB.buttonWrapper--x8uow[accesskey="M"] span {
   background-color: #EA6B23 !important;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
@@ -121,7 +120,6 @@ body {
 }
 
 /* Boton telefono */
-
 .lg--Q7ufB.buttonWrapper--x8uow span {
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
   background-color: #00A8DE !important;
@@ -146,7 +144,7 @@ body {
 /* Boton de opciones (+) */
 .button--Z2dosza.lg--Q7ufB.primary--1IbqAO.circle--Z2c8umk {
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
-    background-color: #670476 !important;
+    background-color: #00A8DE;
 }
 /* Boton cerrar sesion */
 .lg--Q7ufB.buttonWrapper--x8uow[data-test="logout"] span {
@@ -157,7 +155,7 @@ body {
 /* Boton compartir pantalla */
 .lg--Q7ufB.buttonWrapper--x8uow span {
    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
-   background-color: #EE0056 !important;
+   background-color: #EE0056;
 }
 
 .lg--Q7ufB.buttonWrapper--x8uow.btn--ZGSiQH span {
@@ -170,10 +168,7 @@ body {
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
    background-color: #ffbe0b !important;
 }
-/*user icon*/
-.icon--2q1XXw.icon-bbb-user {
-    /*color: grey;*/
-}
+
 
 /* meeting title*/
 .presentationTitle--1LT79g {
