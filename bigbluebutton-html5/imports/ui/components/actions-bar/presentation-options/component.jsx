@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { defineMessages, injectIntl } from 'react-intl';
 import Button from '/imports/ui/components/button/component';
-import MediaService from '/imports/ui/components/media/service';
+// import MediaService from '/imports/ui/components/media/service';
 import cx from 'classnames';
 import { styles } from '../styles';
 
@@ -46,7 +46,7 @@ const PresentationOptionsContainer = ({
     // hack until we have an external-video icon
     buttonType = 'external-video';
   } else if (hasScreenshare) {
-    buttonType = 'desktop';
+    buttonType = 'presentation';
   }
 
   const isThereCurrentPresentation = hasExternalVideo || hasScreenshare || hasPresentation;
@@ -55,11 +55,15 @@ const PresentationOptionsContainer = ({
       className={cx(!isLayoutSwapped || styles.btn)}
       icon={`${buttonType}${isLayoutSwapped ? '_off' : ''}`}
       data-test="restorePresentationButton"
-      label={intl.formatMessage(isLayoutSwapped ? intlMessages.restorePresentationLabel : intlMessages.minimizePresentationLabel)}
-      aria-label={intl.formatMessage(isLayoutSwapped ? intlMessages.restorePresentationLabel : intlMessages.minimizePresentationLabel)}
-      aria-describedby={intl.formatMessage(isLayoutSwapped ? intlMessages.restorePresentationDesc : intlMessages.minimizePresentationDesc)}
-      description={intl.formatMessage(isLayoutSwapped ? intlMessages.restorePresentationDesc : intlMessages.minimizePresentationDesc)}
-      color={!isLayoutSwapped ? "primary" : "default"}
+      label={intl.formatMessage(isLayoutSwapped
+        ? intlMessages.restorePresentationLabel : intlMessages.minimizePresentationLabel)}
+      aria-label={intl.formatMessage(isLayoutSwapped
+        ? intlMessages.restorePresentationLabel : intlMessages.minimizePresentationLabel)}
+      aria-describedby={intl.formatMessage(isLayoutSwapped
+        ? intlMessages.restorePresentationDesc : intlMessages.minimizePresentationDesc)}
+      description={intl.formatMessage(isLayoutSwapped
+        ? intlMessages.restorePresentationDesc : intlMessages.minimizePresentationDesc)}
+      color={!isLayoutSwapped ? 'primary' : 'default'}
       hideLabel
       circle
       size="lg"
